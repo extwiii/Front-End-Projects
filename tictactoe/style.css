@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+    background-color: #4F86AC;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.top, .center, .bottom {
+    height: 100px;
+    margin: auto;
+    width: 460px;
+}
+
+.left, .middle, .right {
+    float: left;
+    width: 152px;
+    height: 100px;
+}
+
+.left {
+    border-right: 5px solid navy;
+}
+
+.right {
+    border-left: 5px solid navy;
+}
+
+.top {
+    border-bottom: 5px solid navy;
+}
+
+.bottom {
+    border-top: 5px solid navy;
+    margin-bottom: 30px;
+}
+
+h6 a {
+    color: blue;
+}
+
+h6 a:hover {
+    color: red;
+}
+
+button {
+    width: 75px;
+}
+
+.game {
+    font-size: 75px;
+    color: white;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <h1>Tic Tac Toe Game</h1>
+            <div class="game">
+                <div class="top">
+                    <div id="topLeft" class="left"></div>
+                    <div id="topMiddle" class="middle"></div>
+                    <div id="topRight" class="right"></div>
+                </div>
+                <div class="center">
+                    <div class="left"></div>
+                    <div class="middle"></div>
+                    <div class="right"></div>
+                </div>
+                <div class="bottom">
+                    <div class="left"></div>
+                    <div class="middle"></div>
+                    <div class="right"></div>
+                </div>
+            </div>
+            <a data-toggle="modal" href="#normalModal" class="btn btn-danger">Choose Your Side</a>
+
+            <div id="normalModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Tic Tac Toe Game</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p style="font-size:50px;">X or O?</p>
+                            <button id="OButton" class="btn btn-primary" data-dismiss="modal">O</button>
+                            <button id="XButton" class="btn btn-primary" data-dismiss="modal">X</button>
+                        </div>
+                        <div class="modal-footer">
+                            <h6>Designed By <a href="http://bctechlondon.co.uk/" target="_blank">BC-TECH</a></h6>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+
+            <h6>Designed By <a href="http://bctechlondon.co.uk/" target="_blank">BC-TECH</a></h6>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
