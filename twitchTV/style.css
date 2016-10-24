@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+    background-color: purple;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 200px;
+}
+
+h1 {
+    background-color: white;
+    padding: 10px 15px;
+    color: navy;
+}
+
+h2 {
+    color: plum;
+}
+
+span {
+    color: navy;
+}
+
+.logo {
+    height: 50px;
+}

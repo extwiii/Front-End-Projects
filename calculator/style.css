@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+    background-color: #DDD;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 100px;
+}
+
+h1 {
+    color: orange;
+}
+
+input {
+    width: 215px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background: gray;
+    text-align: right;
+    font-size: 30px;
+}
+
+input:hover {
+    border: 1px solid black;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 1em rgba(0, 0, 0, 0.1);
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 3px;
+    border: 1px solid gray;
+    font-size: 30px;
+}
+
+button:hover {
+    border: 1px solid black;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 1em rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    font-weight: bold;
+}
+
+.orange {
+    background: #fba01f;
+    color: white;
+    font-size: 30px;
+}
+
+.double {
+    width: 105px;
+}

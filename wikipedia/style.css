@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+    background-color: #099;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 200px;
+}
+
+h1 {
+    background-color: plum;
+    padding: 10px;
+    color: navy;
+    border-radius: 25px;
+}
+
+h2 a {
+    padding: 0 30px;
+    border-radius: 25px;
+    margin: 5px;
+    background-color: turquoise;
+    color: plum;
+    border: 1px solid plum;
+}
+
+h2 a:hover {
+    color: turquoise;
+    background-color: plum;
+    border: 1px solid turquoise;
+    text-decoration: none;
+}
+
+h2 a:link {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 15px;
+    color: plum;
+}
+
+h4 {
+    color: plum;
+}
+
+span {
+    color: navy;
+}
+
+
+/*List View*/
+
+#result a {
+    text-decoration: none;
+}
+
+.result-item {
+    padding: 5px;
+    margin: 10px;
+    border-left: 5px solid grey;
+    background-color: grey;
+    text-align: left;
+    text-decoration: none;
+}
+
+.result-item:hover {
+    padding: 5px;
+    margin: 10px;
+    border-left: 5px solid plum;
+    background-color: turquoise;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*Cool Search Bar*/
+
+.search-form .form-group {
+    margin: auto;
+    transition: all 0.35s, border-radius 0s;
+    width: 32px;
+    height: 32px;
+    background-color: plum;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 25px;
+    border: 1px solid turquoise;
+}
+
+.search-form .form-group input.form-control {
+    padding-right: 20px;
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+    display: block;
+}
+
+.search-form .form-group input.form-control::-webkit-input-placeholder, .search-form .form-group input.form-control:-moz-placeholder, .search-form .form-group input.form-control::-moz-placeholder, .search-form .form-group input.form-control:-ms-input-placeholder {
+    display: none;
+}
+
+.search-form .form-group:hover, .search-form .form-group.hover {
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    background-color: turquoise;
+    border: 1px solid plum;
+}
+
+.search-form .form-group span.form-control-feedback {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: turquoise;
+    left: initial;
+    font-size: 14px;
+}
