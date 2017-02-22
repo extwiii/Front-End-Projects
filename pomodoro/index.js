@@ -20,7 +20,7 @@ $(document).ready(function() {
         $(".sessionL").text(sessionL);
     });
     $(".start").on("click", function() {
-        $('.time').timer({
+        $(".time").timer({
             countdown: true,
             duration: sessionL + "m",
             format: '%H:%M:%S'
