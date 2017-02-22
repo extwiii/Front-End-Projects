@@ -1,11 +1,11 @@
 $(document).ready(function() {
     var lat, lon;
-    var api = "http://api.openweathermap.org/data/2.5/weather?";
+    var api = "https://api.openweathermap.org/data/2.5/weather?";
     var units = "&units=metric";
     var appid = "&APPID=c0ef54bd8cb70c355dc7810f8ed32926";
     var isFahrenheit = false;
 
-    $.getJSON('http://ipinfo.io', function(data) {
+    $.getJSON('https://ipinfo.io', function(data) {
         var res = data.loc.split(",");
         lat = res[0];
         lon = res[1];
