@@ -5,6 +5,7 @@ $(document).ready(function() {
         getInfo(channels[i]);
     }
 
+    
     $(".nav-tabs a").click(function() {
         $(this).tab('show');
     });
@@ -13,8 +14,9 @@ $(document).ready(function() {
 
 
 function getInfo(channel) {
-
+    console.log(12)
     $.getJSON('https://api.twitch.tv/kraken/streams/' + channel + '?callback=?', function(data) {
+      console.log(12)
         var name, logo, status;
         // If User Online
         if (data.stream) {
