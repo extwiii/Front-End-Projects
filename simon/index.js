@@ -84,7 +84,7 @@ $(document).ready(function() {
 
                 }
             } else {
-                var buttonSound = new Audio("http://kristarling.com/publicassets/fail.wav").play();
+                var buttonSound = new Audio("https://kristarling.com/publicassets/fail.wav").play();
 
                 setTimeout(function() {
                     led.text("!!");
